@@ -102,7 +102,7 @@ nodemon server.js
 🚀 **Developer | Programmer | Innovator**  
 
 📧 **Contact**: [pandagrebhushan3@gmail.com] 
-🌐 **Portfolio**: [(https://logo-generator-ra9f.vercel.app/)]  
+🌐 **Portfolio**: [(https://portfolio-bhushan-ra9f.vercel.app/)]  
 💼 **LinkedIn**: [www.linkedin.com/in/bhushan-pandagre ] 
 
  

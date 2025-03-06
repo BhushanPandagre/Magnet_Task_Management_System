@@ -48,9 +48,9 @@ The Employee Panel allows employees to view and update their tasks efficiently:
 
 ### Clone the Repository
 ```bash
-git clone <(https://github.com/BhushanPandagre/Simple-Task-Management-System.git)>
+git clone <(https://github.com/BhushanPandagre/Magnet_Task_Management_System.git)>
 cd client
-cd task management system
+
 
 ### Install Dependencies
 Run the following command to install all required dependencies:
@@ -63,7 +63,7 @@ npm install
 Create a `.env` file in the root directory of your project and include the following keys:
 
 PORT=5000
-DATABASE_URL=<your-database-url>
+MONGO_URL=<your-database-url>
 JWT_SECRET=<your-secret-key>
 
 ### Start the Application
@@ -73,8 +73,8 @@ Navigate to the `client` folder and run the following command to start the devel
 
 
 cd client
-cd task management system
-npm start dev
+
+npm run dev
 
 #### Start the Backend Server:
 

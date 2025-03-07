@@ -122,7 +122,8 @@ Before logging in as an admin, you need to **create the first admin user manuall
 
 Here is an example screenshot of the request in Postman:
 
-![Admin Creation in Postman](Screenshot%20(170).png)
+![Admin Creation in Postman](![Screenshot (170)](https://github.com/user-attachments/assets/ff56cc46-4c00-4a3d-a792-bc09e1dbf656)
+)
 
 ---
 

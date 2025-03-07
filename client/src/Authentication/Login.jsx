@@ -123,7 +123,7 @@ const Login = () => {
               {loading ? "Logging in ..." : "Login"}
             </button>
           </div>
-          <p>
+{/*           <p>
             If user Not Register{" "}
             <span
               style={{
@@ -135,7 +135,7 @@ const Login = () => {
             >
               Register here
             </span>
-          </p>
+          </p> */}
         </form>
       </section>
     </div>

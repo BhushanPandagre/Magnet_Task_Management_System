@@ -10,7 +10,7 @@ import AllUsers from "./components/Admin/pages/AllUsers";
 import UpdateTask from "./components/Admin/pages/UpdateTask";
 import TaskDetail from "./components/Admin/pages/TaskDetail";
 import AddEmployee from "./components/Admin/pages/AddEmployee";
-import Register from "./Authentication/Register";
+// import Register from "./Authentication/Register";
 
 // Example authentication check
 const isAuthenticated = true; // Replace with actual auth logic
@@ -29,7 +29,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+{/*         <Route path="/register" element={<Register />} /> */}
         <Route
           path="/user"
           element={

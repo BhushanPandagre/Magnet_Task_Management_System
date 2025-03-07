@@ -123,19 +123,7 @@ const Login = () => {
               {loading ? "Logging in ..." : "Login"}
             </button>
           </div>
-{/*           <p>
-            If user Not Register{" "}
-            <span
-              style={{
-                color: "blue",
-                textDecoration: "underline",
-                cursor: "pointer",
-              }}
-              onClick={() => navigate("/register")}
-            >
-              Register here
-            </span>
-          </p> */}
+
         </form>
       </section>
     </div>

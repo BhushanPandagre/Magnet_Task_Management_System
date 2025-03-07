@@ -31,7 +31,7 @@ body {
   background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
-  height: 750px;
+  height: 100vh;
   max-height: 100vh;
   padding-top: 50px;
 }

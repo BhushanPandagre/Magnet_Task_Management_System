@@ -17,7 +17,7 @@ The **Admin Panel** empowers administrators with full control over user and task
 ✅ **User Authentication** – Secure admin login to prevent unauthorized access.
 ✅ **Logout** – Secure session termination to safeguard sensitive data.
 
-### 📋 **Employee Panel**
+### 🗋l **Employee Panel**
 The **Employee Panel** allows employees to manage their tasks seamlessly:
 ✅ **Task Dashboard** – View a list of assigned tasks with priority indicators.
 ✅ **Task Updates** – Mark tasks as **Pending**, **In Progress**, or **Completed** in real-time.
@@ -34,27 +34,27 @@ The **Employee Panel** allows employees to manage their tasks seamlessly:
 
 ---
 
-## 🏗️ Technology Stack
+## 🏧 Technology Stack
 
 | Component      | Technology              |
 |---------------|------------------------|
 | 🎨 Frontend   | React.js, CSS          |
 | ⚙️ Backend    | Node.js, Express.js    |
-| 🛢 Database   | MongoDB                |
-| 🔐 Auth       | JWT (JSON Web Tokens)  |
+| 🟢 Database   | MongoDB                |
+| 🔒 Auth       | JWT (JSON Web Tokens)  |
 | 🎨 Styling    | CSS                    |
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 📥 Clone the Repository
+### 👅 Clone the Repository
 ```bash
 git clone https://github.com/BhushanPandagre/Magnet_Task_Management_System.git
 cd Magnet_Task_Management_System
 ```
 
-### 📦 Install Dependencies
+### 🛆 Install Dependencies
 Run the following command to install all required dependencies:
 ```bash
 npm install
@@ -98,14 +98,42 @@ nodemon server.js
 
 ---
 
+## 💪 First-Time Admin Creation
+Before logging in as an admin, you need to **create the first admin user manually using Postman**. Follow these steps:
+
+1. Open **Postman**.
+2. Create a new **POST** request to:
+   ```
+   http://localhost:5000/api/user/register
+   ```
+3. Set the request type to **raw JSON**.
+4. Add the following payload:
+   ```json
+   {
+     "name": "Bhushan Pandagre",
+     "email": "bhushan@gmail.com",
+     "title": "MERN Stack Developer",
+     "password": "123456",
+     "isAdmin": true,
+     "tasks": []
+   }
+   ```
+5. Click **Send** to create the admin user.
+
+Here is an example screenshot of the request in Postman:
+
+![Admin Creation in Postman](Screenshot%20(170).png)
+
+---
+
 ## 👨‍💻 Developed By
 
 **🚀 Bhushan Pandagre**  
 💡 **Developer | Programmer | Innovator**  
 
-📧 **Contact**: [pandagrebhushan3@gmail.com](mailto:pandagrebhushan3@gmail.com)  
+💎 **Contact**: [pandagrebhushan3@gmail.com](mailto:pandagrebhushan3@gmail.com)  
 🌐 **Portfolio**: [Portfolio Website](https://portfolio-bhushan-ra9f.vercel.app/)  
-💼 **LinkedIn**: [Bhushan Pandagre](https://www.linkedin.com/in/bhushan-pandagre)  
+🌟 **LinkedIn**: [Bhushan Pandagre](https://www.linkedin.com/in/bhushan-pandagre)  
 
 ---
 
